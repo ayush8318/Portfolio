@@ -21,22 +21,22 @@ const Footer = () => {
       </div>
      </div>
    
-     <div className='flex justify-center mt-20   md:ml-20'>
+     <div className='flex justify-center mt-20   md:ml-20  ' >
  
-<div className="flex flex-col sm:flex-row gap-4 mb-2">
+<div className="flex flex-col sm:flex-row gap-4 mb-2 md:ml-40 mt-2 ">
   <span className="bannerIcon" > <a href="https://www.facebook.com/share/NWKzwyi6gBi3S2rJ/"><FaFacebookF/></a></span>
   <span className="bannerIcon" > <a href="https://www.instagram.com/ayush_gupta._/profilecard/?igsh=MjZsc2U2Ym1vYWln"><FaInstagram/></a></span>
     <span className="bannerIcon" > <a href="https://www.linkedin.com/in/ayush-gupta-01a785228"><FaLinkedinIn/></a></span>
-    <span className="bannerIcon" > <a href="https://www.instagram.com/ayush_gupta._/profilecard/?igsh=MjZsc2U2Ym1vYWln"><FaGlobe/></a></span>
+    <span className="bannerIcon" > <a href="https://ayush-g-portfolio.netlify.app/"><FaGlobe/></a></span>
   
 </div>
      </div>
 
      </div>
   </section>
- <div className='flex justify-center mt-10 -ml-10'> 
+ <div className='flex justify-center mt-10 -ml-10 xs:ml-1'> 
     <div className='flex items-center mb-10 gap-1'>
-    <div><PiCopyrightThin/></div>
+    <div className=''><PiCopyrightThin/></div>
  <div> <p className='text-gray-500 text-base'> 2024 All rights are reserved by Ayush Gupta</p></div>
 </div>
 
