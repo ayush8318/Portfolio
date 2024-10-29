@@ -29,7 +29,7 @@ import { TbApiOff } from "react-icons/tb";
          />
          <Cards 
          title="Problem Solving & Algorithms"
-          des= " Strong foundation in data structures and algorithms.Participate in competitive programming challenges to enhance logic and algorithm efficiency."
+          des= "Built a strong foundation in data structures and algorithms through focusing on logic refinement and efficient problem-solving."
          icon={<FaLaptopCode />}
          
          />

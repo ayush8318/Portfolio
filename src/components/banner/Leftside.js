@@ -38,14 +38,14 @@ I have developed various projects like iNotebook, an online note-saving platform
     {/* div A start from here */}
      <div className="flex  flex-col gap-6 xl:flex-row xl:gap-0 justify-between ">
         {/* divA1 */}
-<div className='mt-8'>
+<div className='mt-8  md:w-1/3'>
 <li className='quicklinks'>
   {
     navLinksdata
       .filter((navItem) => navItem.link === 'contact')
       .map((navItem) => (
         <Link key={navItem._id} to={navItem.link}>
-          <span className='text-designColor cursor-pointer'>Hire Me</span>
+          <span className='text-designColor cursor-pointer  md:px-4 xs:px-20 xs:text-2xl'>Hire Me</span>
         </Link>
       ))
   }
@@ -56,7 +56,7 @@ I have developed various projects like iNotebook, an online note-saving platform
 
 <div>
 <h2 className="text-base uppercase font-titleFont mb-4">Best skill on</h2>
-<div className="flex gap-4">
+<div className="flex gap-4  xs:ml-3">
            <span className="bannerIconCu">
              <FaReact />
            </span>

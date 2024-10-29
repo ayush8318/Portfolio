@@ -6,24 +6,24 @@ const Courses = () => {
     <div className=' xs:mt-4 mt-9 py-6 md:mt-0 lgl:py-12 font-titleFont'>
           <h2 className=' text-3xl md:text-4xl font-bold'>Courses</h2>
         </div>
-        <div className='mt-6 lgl:mt-14  w-full  lgl:h-[1000px]  h-[1500px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10'>
+        <div className='mt-6  lgl:mt-14  w-full  lgl:h-[1000px]  h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10'>
         <ResumeCard
               title="Data Structure and Alogrithm"
               subTitle="NIT Uttarakhand "
              result="8/10"
-              des="I studied Data Structures and Algorithms with a focus on developing efficient problem-solving skills and gaining a deep understanding of various algorithms, including Rabin-Karp, KMP, Moore's Voting, Floyd's, and Dijkstra's algorithms, along with Prim's Algorithm, Kruskal's Algorithm, and the Bellman-Ford Algorithm for graphs with negative weights."
+              des="I studied "
             />
             <ResumeCard
               title="Object Oriented Design"
               subTitle="Nit Uttarakhand"
               result="9/10"
-              des="I studied Object Oriented Design, which covered essential concepts known as the four pillars of OOP: encapsulation, inheritance, polymorphism, and abstraction. The course also included error handling techniques, such as try and catch "
+              des="I studied "
             />
             <ResumeCard
               title="Database Management System"
               subTitle="Nit Uttarakhand"
               result="9/10"
-              des="I studied Database Management Systems, where the course covered core concepts such as database architecture, normalization, SQL querying, transaction management, data modeling, and the principles of both relational and non-relational databases."
+              des="I studied"
             />
         </div>
     </div>
